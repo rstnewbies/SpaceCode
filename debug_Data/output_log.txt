@@ -2,29 +2,28 @@ Initialize engine version: 5.5.2f1 (3829d7f588f3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Renderer: NVIDIA GeForce GT 610 (ID=0x104a)
     Vendor:   NVIDIA
-    VRAM:     3072 MB
-    Driver:   10.18.15.4271
+    VRAM:     1999 MB
+    Driver:   21.21.13.7653
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\RST\SpaceCode\debug_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.092 seconds
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\System.dll (this message is harmless)
+Platform assembly: F:\unity\spacecode\debug_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\unity\spacecode\debug_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\unity\spacecode\debug_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\unity\spacecode\debug_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\unity\spacecode\debug_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\unity\spacecode\debug_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\unity\spacecode\debug_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\unity\spacecode\debug_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\unity\spacecode\debug_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading F:\unity\spacecode\debug_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.036 seconds
+Platform assembly: F:\unity\spacecode\debug_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\unity\spacecode\debug_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.652344 ms
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2bdc -> priority: 1 
-  Thread -> id: 1494 -> priority: 1 
+UnloadTime: 1.749653 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 16ec -> priority: 1 
