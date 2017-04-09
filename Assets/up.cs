@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class up : MonoBehaviour {
 
     public Text ui;
-    private static int kropelka = 1;
 
 	// Use this for initialization
 	void Start () {
@@ -22,9 +21,8 @@ public class up : MonoBehaviour {
     {
         if (other.gameObject.name == "player")
         {
-            ui.text = "Fuel: "+ kropelka +"/10.";
             Destroy(this.gameObject);
-            kropelka++;
+            FuelManager.FuelUp();
         }
     }
 }
