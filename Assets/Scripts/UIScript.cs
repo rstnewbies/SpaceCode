@@ -14,6 +14,6 @@ public class UIScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        mFuelText.text = "siusiak" + FuelManager.FuelGet(); ;
+        mFuelText.text = "Fuel: " + FuelManager.FuelGet() + "/10";
     }
 }

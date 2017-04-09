@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
 		if (Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.A)) 
 		{
 			moveVelocity = -speed;
-            Janusz.tankuj();
 		}
 		if (Input.GetKey (KeyCode.RightArrow) || Input.GetKey (KeyCode.D)) 
 		{
