@@ -5,15 +5,14 @@ using UnityEngine.UI;
 
 public class UIScript : MonoBehaviour {
 
-    private Text mFuelText;
+    public Text fuelText;
 
 	// Use this for initialization
 	void Start () {
-        mFuelText = transform.FindChild("Text").GetComponent<Text>();
     }
 	
 	// Update is called once per frame
 	void Update () {
-        mFuelText.text = "Fuel: " + FuelManager.FuelGet() + "/10";
+        fuelText.text = "Fuel: " + FuelManager.FuelGet() + "/10";
     }
 }

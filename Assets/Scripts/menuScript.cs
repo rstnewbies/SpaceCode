@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class menuScript : MonoBehaviour {
+public class MenuScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -15,9 +15,9 @@ public class menuScript : MonoBehaviour {
 		
 	}
 
-    public void StartGame(string lvl)
+    public void StartGame()
     {
-        SceneManager.LoadScene(lvl);
+        LevelManager.LevelRender(1);
     }
 
     public void ExitGame()
