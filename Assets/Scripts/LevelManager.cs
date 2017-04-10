@@ -47,6 +47,7 @@ public class LevelManager : MonoBehaviour {
 
     public static void LevelRender(int lvl)
     {
+        sCurrentLevel = lvl;
         SceneManager.LoadScene(sPathStandart + lvl);
     }
 }
