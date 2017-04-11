@@ -36,18 +36,21 @@ public class LevelManager : MonoBehaviour {
     public static void LevelRenderNext()
     {
         LevelUp();
+        FuelManager.FuelReset();
         SceneManager.LoadScene(sPathStandart+sCurrentLevel);
     }
 
     public static void LevelRenderPrevious()
     {
         LevelDown();
+        FuelManager.FuelReset();
         SceneManager.LoadScene(sPathStandart + sCurrentLevel);
     }
 
     public static void LevelRender(int lvl)
     {
         sCurrentLevel = lvl;
+        FuelManager.FuelReset();
         SceneManager.LoadScene(sPathStandart + lvl);
     }
 }
