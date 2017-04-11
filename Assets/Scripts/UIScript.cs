@@ -9,13 +9,10 @@ public class UIScript : MonoBehaviour {
     public Text fuelText;
 
 	// Use this for initialization
-	void Start () {
-    }
+	void Start () {}
 	
 	// Update is called once per frame
-	void Update () {
-        fuelText.text = "Fuel: " + FuelManager.FuelGet() + "/10";
-    }
+	void Update () {}
 
     public void MenuBtn()
     {
