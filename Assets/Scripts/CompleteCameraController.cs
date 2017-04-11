@@ -4,7 +4,7 @@ using System.Collections;
 public class CompleteCameraController : MonoBehaviour
 {
 
-    public Transform player;     
+    public Transform followObject;     
 
 
     private Vector3 offset;         
@@ -18,6 +18,6 @@ public class CompleteCameraController : MonoBehaviour
     // LateUpdate is called after Update each frame
     void Update()
     {
-        transform.position = new Vector3(player.position.x, player.position.y, transform.position.z );
+        transform.position = new Vector3(followObject.position.x, followObject.position.y, transform.position.z );
     }
 }
