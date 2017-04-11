@@ -18,6 +18,6 @@ public class CompleteCameraController : MonoBehaviour
     // LateUpdate is called after Update each frame
     void Update()
     {
-        transform.position = new Vector3(followObject.position.x, followObject.position.y, transform.position.z );
+        transform.position = new Vector3(followObject.position.x, transform.position.y, transform.position.z );
     }
 }
