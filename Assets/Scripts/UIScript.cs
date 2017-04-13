@@ -6,14 +6,32 @@ using UnityEngine.SceneManagement;
 
 public class UIScript : MonoBehaviour {
 
+    private GameObject menuWindow;
+    private bool menuShow = false;
+
 	// Use this for initialization
-	void Start () {}
+	void Start ()
+    {
+        menuWindow = GameObject.Find("Menu");
+        menuWindow.SetActive(false);
+    }
 	
 	// Update is called once per frame
 	void Update () {}
 
-    public void MenuBtn()
+    public void ResetLevelBtn()
+    {
+        LevelManager.LevelRetry();
+    }
+
+    public void ExitLevelBtn()
     {
         SceneManager.LoadScene("menu");
+    }
+
+    public void MenuBtn()
+    {
+            menuWindow.SetActive(!menuShow);
+            menuShow = !menuShow;  
     }
 }
