@@ -19,7 +19,10 @@ public class MenuScript : MonoBehaviour {
     {
         LevelManager.LevelRender(1);
     }
-
+    public void SelectLvl()
+    {
+        SceneManager.LoadScene("select");
+    }
     public void ExitGame()
     {
         Application.Quit();
