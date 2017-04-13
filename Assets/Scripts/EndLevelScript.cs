@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndLevelScript : MonoBehaviour {
 
@@ -18,8 +19,7 @@ public class EndLevelScript : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            FuelManager.AddFuelToWorldFuel();
-            LevelManager.LevelRenderNext();
+            SceneManager.LoadScene("endLvl");
         }
     }
 }

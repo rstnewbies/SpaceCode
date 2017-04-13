@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class UIScript : MonoBehaviour {
 
-    public Text fuelText;
-
 	// Use this for initialization
 	void Start () {}
 	

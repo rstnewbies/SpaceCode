@@ -53,4 +53,9 @@ public class LevelManager : MonoBehaviour {
         FuelManager.FuelReset();
         SceneManager.LoadScene(sPathStandart + lvl);
     }
+
+    public static void LevelRetry()
+    {
+        LevelRender(sCurrentLevel);
+    } 
 }

@@ -1,3 +1,11 @@
+Mono path[0] = 'D:/RST/SpaceCode/debug_Data/Managed'
+Mono path[1] = 'D:/RST/SpaceCode/debug_Data/Mono'
+Mono config path = 'D:/RST/SpaceCode/debug_Data/Mono/etc'
+PlayerConnection initialized from D:/RST/SpaceCode/debug_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55435
+Multi-casting "[IP] 192.168.1.100 [Port] 55435 [Flags] 2 [Guid] 65760686 [EditorId] 2670002196 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-KQO1SBR) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55435]
+PlayerConnection already initialized - listening to [0.0.0.0:55435]
 Initialize engine version: 5.5.2f1 (3829d7f588f3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -17,26 +25,30 @@ Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.Networking.dl
 Loading D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.027 seconds
+- Completed reload, in  0.171 seconds
 Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.263011 ms
+UnloadTime: 3.937572 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.711109 ms
+UnloadTime: 23.756596 ms
+System memory in use before: 16.8 MB.
+System memory in use after: 16.8 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 307.
-Total: 0.246123 ms (FindLiveObjects: 0.018962 ms CreateObjectMapping: 0.013432 ms MarkObjects: 0.182518 ms  DeleteObjects: 0.030814 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 578.
+Total: 1.217577 ms (FindLiveObjects: 0.124444 ms CreateObjectMapping: 0.088493 ms MarkObjects: 0.917726 ms  DeleteObjects: 0.068345 ms)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.354765 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.612538 ms
+System memory in use before: 16.4 MB.
+System memory in use after: 16.4 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 248.
-Total: 0.272987 ms (FindLiveObjects: 0.058864 ms CreateObjectMapping: 0.009086 ms MarkObjects: 0.123259 ms  DeleteObjects: 0.081382 ms)
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 321.
+Total: 1.047306 ms (FindLiveObjects: 0.054518 ms CreateObjectMapping: 0.050172 ms MarkObjects: 0.521085 ms  DeleteObjects: 0.419554 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 20cc -> priority: 1 
-  Thread -> id: 21fc -> priority: 1 
+  Thread -> id: 5e8 -> priority: 1 
+  Thread -> id: 2504 -> priority: 1 

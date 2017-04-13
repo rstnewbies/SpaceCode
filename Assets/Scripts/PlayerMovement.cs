@@ -8,7 +8,24 @@ public class PlayerMovement : MonoBehaviour {
     public float jumpSpeed;
     public bool Grounded = false;
 
+    private bool moveRight = false;
+    private bool moveLeft = false;
+
     void Start() { }
+
+    void Update() {
+
+        if (moveRight)
+        {
+            float speed = movementSpeed;
+            GetComponent<Rigidbody2D>().velocity = new Vector2(speed, GetComponent<Rigidbody2D>().velocity.y);
+        }
+        if (moveLeft)
+        {
+            float speed = -movementSpeed;
+            GetComponent<Rigidbody2D>().velocity = new Vector2(speed, GetComponent<Rigidbody2D>().velocity.y);
+        }
+    }
 
     void OnCollisionStay2D(Collision2D Collision)
     {
@@ -32,13 +49,17 @@ public class PlayerMovement : MonoBehaviour {
 
     public void MoveLeft()
     {
-        float speed = -movementSpeed;
-        GetComponent<Rigidbody2D>().velocity = new Vector2(speed, GetComponent<Rigidbody2D>().velocity.y);
+        moveLeft = true;
     }
 
     public void MoveRight()
     {
-        float speed = movementSpeed;
-        GetComponent<Rigidbody2D>().velocity = new Vector2(speed, GetComponent<Rigidbody2D>().velocity.y);
+        moveRight = true;
+    }
+
+    public void MoveStop()
+    {
+        moveRight = false;
+        moveLeft = false;
     }
 }
