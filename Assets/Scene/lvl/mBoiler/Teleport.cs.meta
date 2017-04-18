@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a0391e8ad35c9404497fd8c678451c70
+timeCreated: 1492430184
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mObjectToTeleport: {fileID: 1669194335068468, guid: 766d22846dfa48845a2b95acf06b6ad8,
+      type: 2}
+  - stage0: {instanceID: 0}
+  - stage1: {instanceID: 0}
+  - stage2: {instanceID: 0}
+  - stage3: {instanceID: 0}
+  - stage4: {instanceID: 0}
+  - stage5: {instanceID: 0}
+  - stage6: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

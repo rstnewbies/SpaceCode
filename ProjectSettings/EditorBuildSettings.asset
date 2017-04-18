@@ -7,11 +7,16 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scene/menu/menu.unity
-  - enabled: 1
-    path: Assets/Scene/lvl/lvl_1.unity
-  - enabled: 1
-    path: Assets/Scene/lvl/lvl_2.unity
-  - enabled: 1
-    path: Assets/Scene/endLvl/endLvl.unity
+    guid: fd8c563daaa3f2844b0500ea72fcf563
   - enabled: 1
     path: Assets/Scene/select/select.unity
+    guid: 38e83128784b5a84daf516bbd7755d51
+  - enabled: 1
+    path: Assets/Scene/lvl/mBoiler/lvl_1.unity
+    guid: 8f1cf2757f16016408cafd9db0a12ced
+  - enabled: 1
+    path: Assets/Scene/lvl/lvl_2.unity
+    guid: 4c8acdd39eee581448300d2d416e1ca5
+  - enabled: 1
+    path: Assets/Scene/endLvl/endLvl.unity
+    guid: d3f33158cd0325e49ac536447d091845
