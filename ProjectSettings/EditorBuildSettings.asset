@@ -7,7 +7,13 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scene/menu.unity
+    guid: fd8c563daaa3f2844b0500ea72fcf563
   - enabled: 1
     path: Assets/Scene/lvl/lvl_1.unity
+    guid: aba694f25245d5e4b92873cc12b25efb
   - enabled: 1
     path: Assets/Scene/lvl/lvl_2.unity
+    guid: 4c8acdd39eee581448300d2d416e1ca5
+  - enabled: 1
+    path: Assets/Scene/lvl/lvl_Julian.unity
+    guid: e156d3035f3554145befd43947af4f85

@@ -2,41 +2,41 @@ Initialize engine version: 5.5.2f1 (3829d7f588f3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
-    Vendor:   NVIDIA
-    VRAM:     3072 MB
-    Driver:   10.18.15.4271
+    Renderer: AMD Radeon HD 8650G + 8670M Dual Graphics (ID=0x990b)
+    Vendor:   ATI
+    VRAM:     2799 MB
+    Driver:   13.151.0.0
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\RST\SpaceCode\debug_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading D:\RST\SpaceCode\debug_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.027 seconds
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\RST\SpaceCode\debug_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+Platform assembly: C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.971 seconds
+Platform assembly: C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\kikor\Desktop\SpaceCode\debug_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.263011 ms
+UnloadTime: 3.786852 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.711109 ms
+UnloadTime: 26.439850 ms
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 307.
-Total: 0.246123 ms (FindLiveObjects: 0.018962 ms CreateObjectMapping: 0.013432 ms MarkObjects: 0.182518 ms  DeleteObjects: 0.030814 ms)
+Total: 0.752199 ms (FindLiveObjects: 0.081252 ms CreateObjectMapping: 0.041446 ms MarkObjects: 0.535937 ms  DeleteObjects: 0.091921 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.354765 ms
+UnloadTime: 1.101421 ms
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 248.
-Total: 0.272987 ms (FindLiveObjects: 0.058864 ms CreateObjectMapping: 0.009086 ms MarkObjects: 0.123259 ms  DeleteObjects: 0.081382 ms)
+Total: 0.655353 ms (FindLiveObjects: 0.057861 ms CreateObjectMapping: 0.032008 ms MarkObjects: 0.354145 ms  DeleteObjects: 0.209286 ms)
 
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 20cc -> priority: 1 
-  Thread -> id: 21fc -> priority: 1 
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1a88 -> priority: 1 
